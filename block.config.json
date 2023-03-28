@@ -1,0 +1,13 @@
+{
+  "name": "frontend",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/rafathNeo/frontend",
+    "ssh": "git@github.com:rafathNeo/frontend.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
